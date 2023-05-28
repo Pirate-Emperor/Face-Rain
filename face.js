@@ -110,7 +110,7 @@ let update = ()=>{
     if (fallinCharArr.length < maxCharCount)
     {
         let columnPixel = Math.floor(Math.random()*maxColumns)*fontSize;
-        let rowPixel = (Math.floor() * ch)/2 - 200;
+        let rowPixel = (Math.floor() * wh)/2 - 200;
         for (let i = 0; i < sequenceLength + Math.floor(sequenceLengthRandomness*Math.random());i++)
         {
             setTimeout(()=>{
