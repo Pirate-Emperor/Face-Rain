@@ -19,14 +19,15 @@ window.addEventListener('resize',(event)=>{
 })
 
 const img = document.getElementById("image");
+// img.crossOrigin = "Anonymous";
 const imgWidth = img.width;
 const imgHeight = img.height;
 
 let d, d2;
 
-img.onload = function () {
+img.onload = async function () {
     context.drawImage(img,0,0);
-    let imgData = context.getImageData(0,0,img.width,img.height);
+    imgData = await context.getImageData(0,0,img.width,img.height);
     d = imgData.data;
     for (let i=0;i<=d.length;i++)
     {
