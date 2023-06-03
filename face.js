@@ -130,10 +130,11 @@ let update = ()=>{
         }
     }
     context.fillRect(0,0,ww,wh);
-    for (let i=0;i<fallinCharArr.length;i++)
+    for (let i=0;i<fallinCharArr.length && frames%2==0;i++)
     {
         fallinCharArr[i].draw(context);
     }
     requestAnimationFrame(update);
+    frames++;
 }
 update();
