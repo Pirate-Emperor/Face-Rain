@@ -27,7 +27,7 @@ git clone https://github.com/Pirate-Emperor/Face-Rain.git
 cd Face-Rain
 ```
 
-No further installation steps are required.
+No further installation steps are required (Click on index.html).
 
 ## Usage
 
