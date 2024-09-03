@@ -12,10 +12,7 @@ Developed by Pirate-Emperor, Face-Rain is an intriguing project focused on creat
 - **User-friendly Interface**: Developed an easy-to-use interface with start, stop, and reset buttons to control the animation.
 
 ## Screenshots
-![screenshot1](images/Straw Hat Pirates.jpg)
 ![screenshot2](images/Dororo.jpg)
-![screenshot3](images/Monkey D. Luffy.jpg)
-![screenshot4](images/MY HERO ACADEMIA.jpg)
 ## Prerequisites
 
 To run the project, you'll need:
